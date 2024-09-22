@@ -7,36 +7,26 @@ from crewai.project import CrewBase, agent, crew, task
 # Check our tools documentations for more information on how to use them
 # from crewai_tools import SerperDevTool
 
+LLM = 'gpt-4o'
+
 @CrewBase
 class CollegeEssayCrew():
 	"""CollegeEssay crew"""
 
 	@agent
-	def researcher(self) -> Agent:
+	def college_question_generator(self) -> Agent:
 		return Agent(
-			config=self.agents_config['researcher'],
+			config=self.agents_config['college_question_generator'],
 			# tools=[MyCustomTool()], # Example of custom tool, loaded on the beginning of file
+			llm=LLM,
 			verbose=True
 		)
-
-	@agent
-	def reporting_analyst(self) -> Agent:
-		return Agent(
-			config=self.agents_config['reporting_analyst'],
+	@task
+	def generator_task(self) -> Task:
+		"""Generate a college question"""
+		return Task(
+			config=self.tasks_config['generator_task'],
 			verbose=True
-		)
-
-	@task
-	def research_task(self) -> Task:
-		return Task(
-			config=self.tasks_config['research_task'],
-		)
-
-	@task
-	def reporting_task(self) -> Task:
-		return Task(
-			config=self.tasks_config['reporting_task'],
-			output_file='report.md'
 		)
 
 	@crew

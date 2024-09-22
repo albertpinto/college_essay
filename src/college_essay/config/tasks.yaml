@@ -1,17 +1,9 @@
-research_task:
+generator_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is 2024.
+    You will generate PIQ questions that are standard and create some great unique and creative answers for all of them on a {program}-specific basis.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
-  agent: researcher
+    A set of 8 questions and answers for the college {program} application. Please make sure that the questions are standard and the answers are unique and creative and 
+    are specific to UC college system.
+  agent: college_question_generator
 
-reporting_task:
-  description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
-  expected_output: >
-    A fully fledge reports with the mains topics, each with a full section of information.
-    Formatted as markdown without '```'
-  agent: reporting_analyst
+

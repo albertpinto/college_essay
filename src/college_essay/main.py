@@ -12,7 +12,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs'
+        'program': 'Business'
     }
     CollegeEssayCrew().crew().kickoff(inputs=inputs)
 
