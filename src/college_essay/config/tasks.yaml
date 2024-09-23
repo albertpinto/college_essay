@@ -1,9 +1,15 @@
 generator_task:
   description: >
-    You will generate PIQ questions that are standard and create some great unique and creative answers for all of them on a {program}-specific basis.
+    You will generate PIQ questions that are standard.
   expected_output: >
-    A set of 8 questions and answers for the college {program} application. Please make sure that the questions are standard and the answers are unique and creative and 
-    are specific to UC college system.
+    A set of 8 questions for the college {program} application. Please make sure that the questions are standard from a UC system.
   agent: college_question_generator
+
+# answer_task:
+#   description: >
+#     You will answer the PIQ questions using the provided activity information from the applicant.
+#   expected_output: >
+#     Thoughtful and personalized answers to the 8 PIQ questions, incorporating relevant details from the applicant's activities and achievements.
+#   agent: question_answerer
 
 

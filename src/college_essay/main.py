@@ -4,10 +4,15 @@ from college_essay.crew import CollegeEssayCrew
 import json
 import re
 
+
 # This main file is intended to be a way for your to run your
 # crew locally, so refrain from adding necessary logic into this file.
 # Replace with inputs you want to test with, it will automatically
 # interpolate any tasks and agents information
+
+def load_activity_data():
+    with open('activity.json', 'r') as file:
+        return json.load(file)
 
 def run():
     """
@@ -18,7 +23,7 @@ def run():
         'output_file': 'output',
         'activity_file': 'activity',
     }
-
+    
     try:
         CollegeEssayCrew().crew().kickoff(inputs=inputs)
     except Exception as e:
@@ -26,6 +31,10 @@ def run():
 
     try:
         convert_txt_to_json(inputs['activity_file'] + ".txt", inputs['activity_file'] + ".json")
+        activity_data = load_activity_data()
+        inputs['activity_data'] = activity_data
+        for input in inputs:
+            print(f"{input}: {inputs[input]}")
     except Exception as e:
         print(f"An error occurred during file conversion: {e}")
 
