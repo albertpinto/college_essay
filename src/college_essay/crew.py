@@ -24,13 +24,13 @@ class CollegeEssayCrew():
 			llm=LLM,
 			verbose=True
 		)
-	# @agent
-	# def question_answerer(self) -> Agent:
-	# 	return Agent(
-	# 		config=self.agents_config['question_answerer'],
-	# 		llm=LLM,
-	# 		verbose=True
-	# 	)
+	@agent
+	def question_answerer(self) -> Agent:
+		return Agent(
+			config=self.agents_config['question_answerer'],
+			llm=LLM,
+			verbose=True
+		)
 
 	@task
 	def generator_task(self) -> Task:
@@ -41,14 +41,14 @@ class CollegeEssayCrew():
 			verbose=True
 		)
 	
-	# @task
-	# def answer_task(self) -> Task:
-	# 	"""Answer college questions using activity information"""
-	# 	return Task(
-	# 		config=self.tasks_config['answer_task'],
-	# 		output_file="answers.md",
-	# 		verbose=True
-	# 	)	
+	@task
+	def answer_task(self) -> Task:
+		"""Answer college questions using activity information"""
+		return Task(
+			config=self.tasks_config['answer_task'],
+			output_file="answers.md",
+			verbose=True
+		)	
 	
 
 	@crew
@@ -62,8 +62,6 @@ class CollegeEssayCrew():
 			# process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
 		)
 	
-	def load_activity_data():
-		with open('activity.json', 'r') as file:
-			return json.load(file)
+
 
 	

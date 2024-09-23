@@ -17,26 +17,34 @@ def load_activity_data():
 def run():
     """
     Run the crew.
+    Inputs are the program that the student is applying to, 
+    the output file name is the final output of the question/answers required for the application, 
+    and the activity file is the name of the file that containts activities for the student. 
+    It's currently hardcoded  in text format and will be converted to JSON.
     """
     inputs = {
         'program': 'Business',
-        'output_file': 'output',
+        'output_file': 'answers',
         'activity_file': 'activity',
     }
     
+    try:
+        convert_txt_to_json(inputs['activity_file'] + ".txt", inputs['activity_file'] + ".json")
+        activity_data = load_activity_data()
+        
+        # Add activity data to inputs from the student activities JSON file
+        inputs['activity_data'] = activity_data
+
+    except Exception as e:
+        print(f"An error occurred during file conversion: {e}")
+
+
     try:
         CollegeEssayCrew().crew().kickoff(inputs=inputs)
     except Exception as e:
         print(f"An error occurred during kickoff: {e}")
 
-    try:
-        convert_txt_to_json(inputs['activity_file'] + ".txt", inputs['activity_file'] + ".json")
-        activity_data = load_activity_data()
-        inputs['activity_data'] = activity_data
-        for input in inputs:
-            print(f"{input}: {inputs[input]}")
-    except Exception as e:
-        print(f"An error occurred during file conversion: {e}")
+   
 
 def train():
     """

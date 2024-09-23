@@ -5,11 +5,12 @@ generator_task:
     A set of 8 questions for the college {program} application. Please make sure that the questions are standard from a UC system.
   agent: college_question_generator
 
-# answer_task:
-#   description: >
-#     You will answer the PIQ questions using the provided activity information from the applicant.
-#   expected_output: >
-#     Thoughtful and personalized answers to the 8 PIQ questions, incorporating relevant details from the applicant's activities and achievements.
-#   agent: question_answerer
+answer_task:
+  description: >
+    You will answer the PIQ questions using ONLY the provided {activity_data} information from the applicant.
+  expected_output: >
+    Thoughtful and personalized answers to the 8 PIQ questions, incorporating relevant details from the applicant's activities and achievements ONLY from the {activity_data}.
+    Make sure you add the questions before each answer. The file will be saved as a {output_file} + '.md'.
+  agent: question_answerer
 
 
