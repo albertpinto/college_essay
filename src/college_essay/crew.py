@@ -1,6 +1,8 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 
+
+
 # Uncomment the following line to use an example of a custom tool
 # from college_essay.tools.custom_tool import MyCustomTool
 
@@ -25,7 +27,8 @@ class CollegeEssayCrew():
 	def generator_task(self) -> Task:
 		"""Generate a college question"""
 		return Task(
-			config=self.tasks_config['generator_task'],
+			config=self.tasks_config['generator_task'],			
+			output_file="questions" +".md",
 			verbose=True
 		)
 
@@ -39,3 +42,5 @@ class CollegeEssayCrew():
 			verbose=True,
 			# process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
 		)
+	
+	
