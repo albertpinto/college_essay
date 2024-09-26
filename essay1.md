@@ -1,0 +1,18 @@
+---
+### Crafting Dreams and Narratives: A Journey in Film and Life
+
+Standing beneath the garish lights of a bustling jewelry expo, I marveled at how far Romikas had come. Three years ago, it was merely a blend of passion and ambition. Today, it's a thriving retail jewelry business, boasting over 5,000 customers, and a beacon of hope for many in need. As the CEO and founder, I journeyed through every facet of entrepreneurship: from overseeing marketing campaigns to meticulously crafting each piece of jewelry, shooting product photos, writing engaging blogs, and strategizing on TikTok and Instagram. 
+
+This rollercoaster of managing a budding business brought me face-to-face with numerous challenges—conflict resolution within my team, pushing the boundaries to innovate, and balancing an array of responsibilities. Yet, the most fulfilling aspect remains our philanthropic endeavors: 10% of our monthly sales funded oxygen tanks via GiveIndia during the pandemic and supported the Trevor Project's vital mental health services for the LGBTQ+ community. This richness in experience taught me profound lessons in leadership, empathy, and the sheer power of creativity when wielded purposefully.
+
+Parallel to Romikas, another passion grew: storytelling through film and acting. For three years, I immersed myself in screenwriting, translating my life experiences into a script teetering on the edge of reality and fiction. Each scene scribbled during late nights was a testament to my growing love for narrative construction. Simultaneously, my acting ventures—guest-starring in the YouTube Red Series "Escape the Night," navigating the Soci Circle web series, and auditioning for high-profile projects like "Stranger Things"—offered me a panoramic view into the world of production and performance. It’s an arena where I experienced raw human emotion, compelling storytelling, and the magic of on-screen transformations.
+
+Teaching also played a pivotal role. At Brain-O-Magic, as the lead Abacus Math teacher, I mentored over 200 students, driving them to win competitions while nurturing their confidence. Such experiences were incredibly fulfilling and mirrored the collaborative spirit essential in film. Directing young minds provided a unique vantage point, enabling me to effortlessly shift to managing team dynamics in filmmaking.
+
+My stint as a research intern under Professor Asif Qamar was another cornerstone, where we delved into the impact of holidays on sales through linear regression. Our findings, published in the CODATA Science Journal, enhanced my analytical acumen—skills I now apply to dissecting film scripts, understanding story arcs and character constructs with a scientific precision.
+
+Balancing these manifold roles was daunting. Whether sprinting from a math class to a jewelry design meeting, or from a research presentation to a film shoot, each step was a lesson in discipline and dedication. Those moments of orchestrating organized chaos fortified my resolve, showing me the beauty in wearing multiple hats, especially in the interlinked world of film and entrepreneurship.
+
+Today, as an aspiring student in the University of California's Film/Cinema/Video Studies program, I hold dear the unique amalgamation of my experiences. It is this blend—where the nuance of a jewelry designer meets the narrative depth of an actor, and the precision of an educator aligns with the creativity of a screenwriter—that I bring to the table. Each role I’ve undertaken has illustrated different shades of storytelling, and every challenge conquered has sharpened my resolve to create narratives that resonate deeply. Here’s to crafting impactful stories and pursuing cinematic dreams with relentless fervor.
+
+---

@@ -1,0 +1,15 @@
+```markdown
+# Film/Cinema/Video Studies Application Essay
+
+As a young entrepreneur spearheading Romikas, a retail jewelry business, I discovered my intrinsic knack for visual storytelling and leadership. Managing every aspect of the business, from product design to social media marketing, has honed my skills in crafting compelling narratives. With over 5,000 satisfied customers, my journey at Romikas has been a testament to my leadership and my ability to influence and inspire a team toward a shared vision. The art of creating engaging, visually stimulating content for platforms like Tik-Tok and Instagram has profoundly shaped my passion for Film/Cinema/Video Studies, where visual narrative is key.
+
+I vividly remember a rainy afternoon when I stumbled upon a dusty handwritten screenplay in my attic. It was an unpolished draft of a story loosely based on my life. That moment was pivotal—it sparked my journey into screenwriting. Over the past three years, I have poured my heart into refining this screenplay, transforming personal anecdotes into a narrative that I hope to pitch to production companies soon. This foray into screenwriting has been my creative sanctuary, allowing me to blend my lived experiences with imaginative scenarios seamlessly.
+
+My creative pursuits are not confined to writing. As an actor, I have guest-starred in the YouTube Red Series *Escape the Night* and various web series like *Soci Circle*. These roles demanded an empathetic delve into character portrayal, granting me a deeper understanding of visual storytelling's intricate layers. Each acting stint was an exhilarating experience, urging me to view narratives not just from behind the camera but also through the lens of a performer. It reinforced my belief in the power of film to evoke profound emotions and foster empathy.
+
+What truly distinguishes me as a candidate for UC's Film/Cinema/Video Studies program is my resilience and innovative spirit. The COVID-19 pandemic posed monumental challenges to my business, disrupting supply chains and impacting operations. Pivoting to a robust online strategy, I managed to sustain and grow my business. This experience sharpened my problem-solving skills and underscored the importance of adaptability—traits essential in the dynamic world of film.
+
+Moreover, my dedication to social causes—donating a portion of my business proceeds to charities like GiveIndia and the Trevor Project—reflects my commitment to using my platform for positive change. I aspire to bring this ethos to UC, leveraging film as a medium to spotlight social issues and foster inclusivity.
+
+Joining UC's vibrant community excites me. I envision collaborating with like-minded peers and seasoned faculty, initiating projects that blend creativity with social awareness. My multifaceted experiences in business, screenwriting, acting, and community service equip me uniquely to contribute meaningfully to the academic and creative tapestry of UC's Film/Cinema/Video Studies program. I am eager to enrich this community with narratives that inspire, resonate, and drive change.
+```
